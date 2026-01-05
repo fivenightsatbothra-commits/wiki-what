@@ -12,7 +12,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/wiki-what">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
